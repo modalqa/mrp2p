@@ -1,0 +1,3767 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": null,
+  "style": "style.css",
+  "displayDuration": true,
+  "browser": 16,
+  "name": "",
+  "version": "version",
+  "time": "2019-05-16T06:29:27.676Z",
+  "features": [
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As borrower I Want To Login To Modalrakyat P2P",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Borrower Ajukan Pinjaman",
+      "line": 1,
+      "id": "975727c4-76d2-41c5-88ed-268654d3819e-modakrakyat-p2p-borrower-ajukan-pinjaman",
+      "tags": [],
+      "uri": "features/ajukanpinjman.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-borrower-ajukan-pinjaman;ajukan-pinjaman",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Ajukan pinjaman",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 8217000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "borrower is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 220000000
+              },
+              "time": "00:00:00.220"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "borrower will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1354000000
+              },
+              "time": "00:00:01.354"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "borrower login as \"ACTIVE_BORROWER\"",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3329000000
+              },
+              "time": "00:00:03.329"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "borrower will see borrower dashboard page",
+              "match": {
+                "location": "src/step_definitions/borrower/Bdashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 73000000
+              },
+              "time": "00:00:00.073"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "borrower click button ajukan pinjaman",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:4"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 615000000
+              },
+              "time": "00:00:00.615"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "borrower directed to type loan page",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:7"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 207000000
+              },
+              "time": "00:00:00.207"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "borrower click button ajukan sekarang for modal usaha",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:10"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3021000000
+              },
+              "time": "00:00:03.021"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "borrower input information loan",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6247000000
+              },
+              "time": "00:00:06.247"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 13,
+              "name": "borrower click button ajukan",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:16"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 214000000
+              },
+              "time": "00:00:00.214"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 14,
+              "name": "borrower click button konfirmasi",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:19"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 624000000
+              },
+              "time": "00:00:00.624"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 15,
+              "name": "borrower click button kembali ke dashboard",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:22"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 841000000
+              },
+              "time": "00:00:00.841"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3000000
+              }
+            }
+          ],
+          "passed": 11,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 16745000000,
+          "time": "00:00:16.745"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 16745000000,
+      "time": "00:00:16.745",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As borrower I Want To Login To Modalrakyat P2P",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Borrower Login",
+      "line": 1,
+      "id": "e491b4f9-363a-4940-bdde-1e8cb2d08246-modakrakyat-p2p-borrower-login",
+      "tags": [],
+      "uri": "features/blogin.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-borrower-login;login-with-valid-username",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Login With Valid Username",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5148000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "borrower is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 193000000
+              },
+              "time": "00:00:00.193"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "borrower will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1474000000
+              },
+              "time": "00:00:01.474"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "borrower login as \"ACTIVE_BORROWER\"",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4867000000
+              },
+              "time": "00:00:04.867"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "borrower will see borrower dashboard page",
+              "match": {
+                "location": "src/step_definitions/borrower/Bdashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 147000000
+              },
+              "time": "00:00:00.147"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 7000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4000000
+              }
+            }
+          ],
+          "passed": 4,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 6681000000,
+          "time": "00:00:06.681"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 6681000000,
+      "time": "00:00:06.681",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P and lender can deposit dana",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Deposit Dana",
+      "line": 1,
+      "id": "c5ccac0b-719a-4690-b021-fd7163914093-modakrakyat-p2p-lender-deposit-dana",
+      "tags": [],
+      "uri": "features/depositdana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-deposit-dana;deposit-dana-on-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Deposit dana on modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5655000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 221000000
+              },
+              "time": "00:00:00.221"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1482000000
+              },
+              "time": "00:00:01.482"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4133000000
+              },
+              "time": "00:00:04.133"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 257000000
+              },
+              "time": "00:00:00.257"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 383000000
+              },
+              "time": "00:00:00.383"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click deposit dana",
+              "match": {
+                "location": "src/step_definitions/deposit.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 705000000
+              },
+              "time": "00:00:00.705"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 11,
+              "name": "lender can see deposit dana page",
+              "match": {
+                "location": "src/step_definitions/deposit.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 40000000
+              },
+              "time": "00:00:00.040"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            }
+          ],
+          "passed": 7,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 7221000000,
+          "time": "00:00:07.221"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 7221000000,
+      "time": "00:00:07.221",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Login",
+      "line": 1,
+      "id": "e1af3a1f-64bf-4453-937a-3b1b7a62f12a-modakrakyat-p2p-lender-login",
+      "tags": [],
+      "uri": "features/login.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-login;login-with-valid-username",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Login With Valid Username",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5497000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 490000000
+              },
+              "time": "00:00:00.490"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1399000000
+              },
+              "time": "00:00:01.399"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4153000000
+              },
+              "time": "00:00:04.153"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 123000000
+              },
+              "time": "00:00:00.123"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 221000000
+              },
+              "time": "00:00:00.221"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 10,
+              "name": "lender click logout",
+              "match": {
+                "location": "src/step_definitions/index.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1791000000
+              },
+              "time": "00:00:01.791"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 11,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 38000000
+              },
+              "time": "00:00:00.038"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            }
+          ],
+          "passed": 7,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 8215000000,
+          "time": "00:00:08.215"
+        },
+        {
+          "id": "modakrakyat-p2p-lender-login;login-with-invalid-username",
+          "keyword": "Scenario",
+          "line": 13,
+          "name": "Login With Invalid Username",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6015000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 14,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 253000000
+              },
+              "time": "00:00:00.253"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 15,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1693000000
+              },
+              "time": "00:00:01.693"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "lender login as \"INVALID_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2076000000
+              },
+              "time": "00:00:02.076"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 17,
+              "name": "lender will see alert invalid lender",
+              "match": {
+                "location": "src/step_definitions/login.js:27"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 51000000
+              },
+              "time": "00:00:00.051"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            }
+          ],
+          "passed": 4,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 4073000000,
+          "time": "00:00:04.073"
+        }
+      ],
+      "scenarios": {
+        "passed": 2,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 2
+      },
+      "duration": 12288000000,
+      "time": "00:00:12.288",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat and mendanai",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Mendanai",
+      "line": 1,
+      "id": "ddc7a653-e878-403e-af24-8685421ab823-modakrakyat-p2p-lender-mendanai",
+      "tags": [],
+      "uri": "features/mendanai.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-mendanai;mendanai-in-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Mendanai in Modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5869000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 231000000
+              },
+              "time": "00:00:00.231"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1659000000
+              },
+              "time": "00:00:01.659"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4112000000
+              },
+              "time": "00:00:04.112"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 75000000
+              },
+              "time": "00:00:00.075"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click button mulai mendanai",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:4"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1080000000
+              },
+              "time": "00:00:01.080"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender directed to marketplace",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:8"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 317000000
+              },
+              "time": "00:00:00.317"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender click button detail",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:12"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4649000000
+              },
+              "time": "00:00:04.649"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender can input nominal amount",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:16"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 12244000000
+              },
+              "time": "00:00:12.244"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            }
+          ],
+          "passed": 8,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 24367000000,
+          "time": "00:00:24.367"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 24367000000,
+      "time": "00:00:24.367",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P and lender can check mutasi dana",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Mutasi Dana",
+      "line": 1,
+      "id": "97f632ab-c254-4827-9302-2287a17c7467-modakrakyat-p2p-lender-mutasi-dana",
+      "tags": [],
+      "uri": "features/mutasidana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-mutasi-dana;mutasi-dana-on-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Mutasi dana on modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5020000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 181000000
+              },
+              "time": "00:00:00.181"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1051000000
+              },
+              "time": "00:00:01.051"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3618000000
+              },
+              "time": "00:00:03.618"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 123000000
+              },
+              "time": "00:00:00.123"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 215000000
+              },
+              "time": "00:00:00.215"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click mutasi",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 857000000
+              },
+              "time": "00:00:00.857"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender click type bulanan",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 289000000
+              },
+              "time": "00:00:00.289"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender set tanggal mutasi",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:17"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 778000000
+              },
+              "time": "00:00:00.778"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 13,
+              "name": "lender click lihat",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:21"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 723000000
+              },
+              "time": "00:00:00.723"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            }
+          ],
+          "passed": 9,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 7835000000,
+          "time": "00:00:07.835"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 7835000000,
+      "time": "00:00:07.835",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat and check link",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Check Menu",
+      "line": 1,
+      "id": "cba1e96b-09e5-4d51-a6af-85e76c36c3b8-modakrakyat-p2p-lender-check-menu",
+      "tags": [],
+      "uri": "features/p2pmenupendana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-check-menu;check-feature-menu-on-pendana",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Check feature menu on pendana",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6847000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 256000000
+              },
+              "time": "00:00:00.256"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1239000000
+              },
+              "time": "00:00:01.239"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3593000000
+              },
+              "time": "00:00:03.593"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 61000000
+              },
+              "time": "00:00:00.061"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 197000000
+              },
+              "time": "00:00:00.197"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click referral",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:7"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 761000000
+              },
+              "time": "00:00:00.761"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 252000000
+              },
+              "time": "00:00:00.252"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender click panduan",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 632000000
+              },
+              "time": "00:00:00.632"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 13,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 195000000
+              },
+              "time": "00:00:00.195"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 14,
+              "name": "lender click peluang pendanaan",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:19"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 805000000
+              },
+              "time": "00:00:00.805"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 15,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 376000000
+              },
+              "time": "00:00:00.376"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 16,
+              "name": "lender click inbox",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:25"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 670000000
+              },
+              "time": "00:00:00.670"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 17,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 216000000
+              },
+              "time": "00:00:00.216"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "lender click portofolio",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:31"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 608000000
+              },
+              "time": "00:00:00.608"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 19,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 390000000
+              },
+              "time": "00:00:00.390"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 20,
+              "name": "lender click akun",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:38"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 676000000
+              },
+              "time": "00:00:00.676"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 8000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6000000
+              }
+            }
+          ],
+          "passed": 16,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 10927000000,
+          "time": "00:00:10.927"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 10927000000,
+      "time": "00:00:10.927",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "67.0.33"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P and tarik dana",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Tarik Dana",
+      "line": 1,
+      "id": "f9bdb299-cf98-4a3a-b151-133498041028-modakrakyat-p2p-lender-tarik-dana",
+      "tags": [],
+      "uri": "features/tarikdana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-tarik-dana;tarik-dana-on-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Tarik dana on modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5637000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 203000000
+              },
+              "time": "00:00:00.203"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1360000000
+              },
+              "time": "00:00:01.360"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3545000000
+              },
+              "time": "00:00:03.545"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 53000000
+              },
+              "time": "00:00:00.053"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 210000000
+              },
+              "time": "00:00:00.210"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click tarik dana",
+              "match": {
+                "location": "src/step_definitions/tarikdana.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 674000000
+              },
+              "time": "00:00:00.674"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender input nominal",
+              "match": {
+                "location": "src/step_definitions/tarikdana.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1030000000
+              },
+              "time": "00:00:01.030"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender click button konfirmasi",
+              "match": {
+                "location": "src/step_definitions/tarikdana.js:17"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 322000000
+              },
+              "time": "00:00:00.322"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            }
+          ],
+          "passed": 8,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 7397000000,
+          "time": "00:00:07.397"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 7397000000,
+      "time": "00:00:07.397",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As borrower I Want To Login To Modalrakyat P2P",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Borrower Ajukan Pinjaman",
+      "line": 1,
+      "id": "e8611819-01db-4ce1-82f7-cbf78a66129f-modakrakyat-p2p-borrower-ajukan-pinjaman",
+      "tags": [],
+      "uri": "features/ajukanpinjman.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-borrower-ajukan-pinjaman;ajukan-pinjaman",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Ajukan pinjaman",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 9163000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "borrower is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 435000000
+              },
+              "time": "00:00:00.435"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "borrower will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1488000000
+              },
+              "time": "00:00:01.488"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "borrower login as \"ACTIVE_BORROWER\"",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4293000000
+              },
+              "time": "00:00:04.293"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "borrower will see borrower dashboard page",
+              "match": {
+                "location": "src/step_definitions/borrower/Bdashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 49000000
+              },
+              "time": "00:00:00.049"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "borrower click button ajukan pinjaman",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:4"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 950000000
+              },
+              "time": "00:00:00.950"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "borrower directed to type loan page",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:7"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 393000000
+              },
+              "time": "00:00:00.393"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "borrower click button ajukan sekarang for modal usaha",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:10"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3389000000
+              },
+              "time": "00:00:03.389"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "borrower input information loan",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6435000000
+              },
+              "time": "00:00:06.435"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 13,
+              "name": "borrower click button ajukan",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:16"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 335000000
+              },
+              "time": "00:00:00.335"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 14,
+              "name": "borrower click button konfirmasi",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:19"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1079000000
+              },
+              "time": "00:00:01.079"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 15,
+              "name": "borrower click button kembali ke dashboard",
+              "match": {
+                "location": "src/step_definitions/borrower/ajukanModalUsaha.js:22"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1720000000
+              },
+              "time": "00:00:01.720"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 18000000
+              }
+            }
+          ],
+          "passed": 11,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 20566000000,
+          "time": "00:00:20.566"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 20566000000,
+      "time": "00:00:20.566",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As borrower I Want To Login To Modalrakyat P2P",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Borrower Login",
+      "line": 1,
+      "id": "d9c54290-7856-4936-8c9b-80100d7b79a1-modakrakyat-p2p-borrower-login",
+      "tags": [],
+      "uri": "features/blogin.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-borrower-login;login-with-valid-username",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Login With Valid Username",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 7257000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "borrower is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 454000000
+              },
+              "time": "00:00:00.454"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "borrower will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1566000000
+              },
+              "time": "00:00:01.566"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "borrower login as \"ACTIVE_BORROWER\"",
+              "match": {
+                "location": "src/step_definitions/borrower/blogin.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3627000000
+              },
+              "time": "00:00:03.627"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "borrower will see borrower dashboard page",
+              "match": {
+                "location": "src/step_definitions/borrower/Bdashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 63000000
+              },
+              "time": "00:00:00.063"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            }
+          ],
+          "passed": 4,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 5710000000,
+          "time": "00:00:05.710"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 5710000000,
+      "time": "00:00:05.710",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P and lender can deposit dana",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Deposit Dana",
+      "line": 1,
+      "id": "970d8177-717c-413d-ae08-4860bcf8d4c1-modakrakyat-p2p-lender-deposit-dana",
+      "tags": [],
+      "uri": "features/depositdana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-deposit-dana;deposit-dana-on-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Deposit dana on modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 7590000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3293000000
+              },
+              "time": "00:00:03.293"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1698000000
+              },
+              "time": "00:00:01.698"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3845000000
+              },
+              "time": "00:00:03.845"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 586000000
+              },
+              "time": "00:00:00.586"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 323000000
+              },
+              "time": "00:00:00.323"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click deposit dana",
+              "match": {
+                "location": "src/step_definitions/deposit.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1014000000
+              },
+              "time": "00:00:01.014"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 11,
+              "name": "lender can see deposit dana page",
+              "match": {
+                "location": "src/step_definitions/deposit.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 37000000
+              },
+              "time": "00:00:00.037"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 9000000
+              }
+            }
+          ],
+          "passed": 7,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 10796000000,
+          "time": "00:00:10.796"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 10796000000,
+      "time": "00:00:10.796",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Login",
+      "line": 1,
+      "id": "607597d1-b90f-477b-9688-63a470f736f3-modakrakyat-p2p-lender-login",
+      "tags": [],
+      "uri": "features/login.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-login;login-with-valid-username",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Login With Valid Username",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6266000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 486000000
+              },
+              "time": "00:00:00.486"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2105000000
+              },
+              "time": "00:00:02.105"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3553000000
+              },
+              "time": "00:00:03.553"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 542000000
+              },
+              "time": "00:00:00.542"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 262000000
+              },
+              "time": "00:00:00.262"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 10,
+              "name": "lender click logout",
+              "match": {
+                "location": "src/step_definitions/index.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1969000000
+              },
+              "time": "00:00:01.969"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 11,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 81000000
+              },
+              "time": "00:00:00.081"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5000000
+              }
+            }
+          ],
+          "passed": 7,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 8998000000,
+          "time": "00:00:08.998"
+        },
+        {
+          "id": "modakrakyat-p2p-lender-login;login-with-invalid-username",
+          "keyword": "Scenario",
+          "line": 13,
+          "name": "Login With Invalid Username",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6851000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 14,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 462000000
+              },
+              "time": "00:00:00.462"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 15,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1621000000
+              },
+              "time": "00:00:01.621"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "lender login as \"INVALID_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2601000000
+              },
+              "time": "00:00:02.601"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 17,
+              "name": "lender will see alert invalid lender",
+              "match": {
+                "location": "src/step_definitions/login.js:27"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 53000000
+              },
+              "time": "00:00:00.053"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            }
+          ],
+          "passed": 4,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 4737000000,
+          "time": "00:00:04.737"
+        }
+      ],
+      "scenarios": {
+        "passed": 2,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 2
+      },
+      "duration": 13735000000,
+      "time": "00:00:13.735",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat and mendanai",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Mendanai",
+      "line": 1,
+      "id": "c1677c82-79e0-4e1f-95dd-1c9438cf9bde-modakrakyat-p2p-lender-mendanai",
+      "tags": [],
+      "uri": "features/mendanai.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-mendanai;mendanai-in-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Mendanai in Modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6798000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 591000000
+              },
+              "time": "00:00:00.591"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1895000000
+              },
+              "time": "00:00:01.895"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3909000000
+              },
+              "time": "00:00:03.909"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1388000000
+              },
+              "time": "00:00:01.388"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click button mulai mendanai",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:4"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1105000000
+              },
+              "time": "00:00:01.105"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender directed to marketplace",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:8"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 355000000
+              },
+              "time": "00:00:00.355"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender click button detail",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:12"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3733000000
+              },
+              "time": "00:00:03.733"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender can input nominal amount",
+              "match": {
+                "location": "src/step_definitions/mendanai.js:16"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 12688000000
+              },
+              "time": "00:00:12.688"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4000000
+              }
+            }
+          ],
+          "passed": 8,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 25664000000,
+          "time": "00:00:25.664"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 25664000000,
+      "time": "00:00:25.664",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P and lender can check mutasi dana",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Mutasi Dana",
+      "line": 1,
+      "id": "489c6323-7d30-4226-b01d-260ac62dfb17-modakrakyat-p2p-lender-mutasi-dana",
+      "tags": [],
+      "uri": "features/mutasidana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-mutasi-dana;mutasi-dana-on-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Mutasi dana on modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6438000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 440000000
+              },
+              "time": "00:00:00.440"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1585000000
+              },
+              "time": "00:00:01.585"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3863000000
+              },
+              "time": "00:00:03.863"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 462000000
+              },
+              "time": "00:00:00.462"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 285000000
+              },
+              "time": "00:00:00.285"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click mutasi",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 983000000
+              },
+              "time": "00:00:00.983"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender click type bulanan",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 522000000
+              },
+              "time": "00:00:00.522"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender set tanggal mutasi",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:17"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 950000000
+              },
+              "time": "00:00:00.950"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 13,
+              "name": "lender click lihat",
+              "match": {
+                "location": "src/step_definitions/mutasi.js:21"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 701000000
+              },
+              "time": "00:00:00.701"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 2000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5000000
+              }
+            }
+          ],
+          "passed": 9,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 9791000000,
+          "time": "00:00:09.791"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 9791000000,
+      "time": "00:00:09.791",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat and check link",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Check Menu",
+      "line": 1,
+      "id": "d5d2c74a-ca20-4f00-9f8e-10553826991d-modakrakyat-p2p-lender-check-menu",
+      "tags": [],
+      "uri": "features/p2pmenupendana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-check-menu;check-feature-menu-on-pendana",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Check feature menu on pendana",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6294000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 452000000
+              },
+              "time": "00:00:00.452"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1469000000
+              },
+              "time": "00:00:01.469"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 4063000000
+              },
+              "time": "00:00:04.063"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1541000000
+              },
+              "time": "00:00:01.541"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 325000000
+              },
+              "time": "00:00:00.325"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click referral",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:7"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1017000000
+              },
+              "time": "00:00:01.017"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 381000000
+              },
+              "time": "00:00:00.381"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender click panduan",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 882000000
+              },
+              "time": "00:00:00.882"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 13,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 419000000
+              },
+              "time": "00:00:00.419"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 14,
+              "name": "lender click peluang pendanaan",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:19"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1454000000
+              },
+              "time": "00:00:01.454"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 15,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 680000000
+              },
+              "time": "00:00:00.680"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 16,
+              "name": "lender click inbox",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:25"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 546000000
+              },
+              "time": "00:00:00.546"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 17,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 341000000
+              },
+              "time": "00:00:00.341"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "lender click portofolio",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:31"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 828000000
+              },
+              "time": "00:00:00.828"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 19,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 538000000
+              },
+              "time": "00:00:00.538"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 20,
+              "name": "lender click akun",
+              "match": {
+                "location": "src/step_definitions/a_navigation.js:38"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 810000000
+              },
+              "time": "00:00:00.810"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 5000000
+              }
+            }
+          ],
+          "passed": 16,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 15746000000,
+          "time": "00:00:15.746"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 15746000000,
+      "time": "00:00:15.746",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    },
+    {
+      "metadata": {
+        "browser": {
+          "name": "firefox",
+          "version": "60.0.2"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "linux",
+          "version": "4.15.0-48-generic"
+        }
+      },
+      "description": "  As Lender I Want To Login To Modalrakyat P2P and tarik dana",
+      "keyword": "Feature",
+      "name": "Modakrakyat P2P Lender Tarik Dana",
+      "line": 1,
+      "id": "9784c45d-b829-4ca4-bde4-700a14e6cbe3-modakrakyat-p2p-lender-tarik-dana",
+      "tags": [],
+      "uri": "features/tarikdana.feature",
+      "elements": [
+        {
+          "id": "modakrakyat-p2p-lender-tarik-dana;tarik-dana-on-modalrakyat",
+          "keyword": "Scenario",
+          "line": 4,
+          "name": "Tarik dana on modalrakyat",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "keyword": "Before",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:49"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 6185000000
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 5,
+              "name": "lender is at p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 417000000
+              },
+              "time": "00:00:00.417"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 6,
+              "name": "lender will see p2p login page",
+              "match": {
+                "location": "src/step_definitions/login.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1385000000
+              },
+              "time": "00:00:01.385"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "lender login as \"ACTIVE_LENDER\"",
+              "match": {
+                "location": "src/step_definitions/login.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3191000000
+              },
+              "time": "00:00:03.191"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 8,
+              "name": "lender will see lender dashboard page",
+              "match": {
+                "location": "src/step_definitions/dashboard.js:6"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1381000000
+              },
+              "time": "00:00:01.381"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "lender click sidebar menu",
+              "match": {
+                "location": "src/step_definitions/index.js:5"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 278000000
+              },
+              "time": "00:00:00.278"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "lender click tarik dana",
+              "match": {
+                "location": "src/step_definitions/tarikdana.js:9"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 962000000
+              },
+              "time": "00:00:00.962"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "lender input nominal",
+              "match": {
+                "location": "src/step_definitions/tarikdana.js:13"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 1167000000
+              },
+              "time": "00:00:01.167"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 12,
+              "name": "lender click button konfirmasi",
+              "match": {
+                "location": "src/step_definitions/tarikdana.js:17"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 347000000
+              },
+              "time": "00:00:00.347"
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:63"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 3000000
+              }
+            },
+            {
+              "keyword": "After",
+              "hidden": true,
+              "match": {
+                "location": "src/support/hooks.js:58"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 7000000
+              }
+            }
+          ],
+          "passed": 8,
+          "failed": 0,
+          "notdefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 9128000000,
+          "time": "00:00:09.128"
+        }
+      ],
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notdefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 9128000000,
+      "time": "00:00:09.128",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 16,
+    "skipped": 0,
+    "total": 16,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "TestCafe Demo HTML Report",
+  "scenarios": {
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "pending": 0,
+    "notdefined": 0,
+    "ambiguous": 0,
+    "total": 18,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notdefinedPercentage": "0.00",
+    "passedPercentage": "100.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}
